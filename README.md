@@ -17,34 +17,6 @@ This script is designed to facilitate the querying of DNS records and checking h
    - You can install `dig` with tools like `bind-utils` on CentOS or `dnsutils` on Ubuntu.
    - Perl is usually pre-installed on Unix-like systems.
 
-## Usage
-
-The script accepts the following arguments:
-
-```bash
-./gethash.sh [-a hash_algorithm] [-v level] <domain> [type] [-h <hash>]
-```
-
-### Options:
-
-- `-a hash_algorithm`: Specify the hash algorithm (`sha256`, `md5`, or `sha1`). Default is `sha256`.
-- `-v level`: Set verbosity level (`0`: none, `1`: info, `2`: verbose). Default is `0`.
-- `-h <hash>`: Query DShield and Cymru databases for the given hash (optional).
-- `<domain>`: The domain you want to query for DNS records.
-- `[type]`: The type of DNS record to query (`A`, `AAAA`, `MX`, etc.). Default is `A`.
-
-### Example Commands:
-
-- Query A records for `example.com`:
-  ```bash
-  ./gethash.sh example.com
-  ```
-
-- Query hash information for a given MD5 hash:
-  ```bash
-  ./gethash.sh -h d41d8cd98f00b204e9800998ecf8427e
-  ```
-
 ## Hash Checking Resources
 
 After gathering hashes, you may want to verify them or see if they are known malicious indicators. Here are some online resources you can use to check hashes:
