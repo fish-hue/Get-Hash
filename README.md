@@ -3,7 +3,8 @@
 
 ## Overview
 
-This script is designed to facilitate the querying of DNS records and checking hash information in malware databases. It allows users to gather DNS records for a specified domain and look up file hashes in various malware databases.
+This script is designed to facilitate the querying of DNS records and checking hash information in malware databases.
+It allows users to gather DNS records for a specified domain and look up file hashes in various malware databases.
 
 ## Features
 
