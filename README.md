@@ -20,11 +20,11 @@ This script is designed to facilitate the querying of DNS records and checking h
 
 After gathering hashes, you may want to verify them or see if they are known malicious indicators. Here are some online resources you can use to check hashes:
 
-1. **[VirusTotal](https://www.virustotal.com/)** - Submit files or hashes to see if they are flagged by antivirus engines.
-2. **[Hybrid Analysis](https://www.hybrid-analysis.com/)** - Analyze files and URLs; submit hashes for known associations.
-3. **[Malshare](https://malshare.com/)** - Access to malware samples and known hash information.
-4. **[OnlineHashCrack](https://www.onlinehashcrack.com/)** - Check hashes against known databases and attempt cracking them.
-5. **[Hashlookup](https://hashlookup.io/)** - Search for hashes and get detailed information on their origins.
+1. https://www.virustotal.com/ - Submit files or hashes to see if they are flagged by antivirus engines.
+2. https://www.hybrid-analysis.com/ - Analyze files and URLs; submit hashes for known associations.
+3. https://malshare.com/ - Access to malware samples and known hash information.
+4. https://www.onlinehashcrack.com/ - Check hashes against known databases and attempt cracking them.
+5. https://hashlookup.io/ - Search for hashes and get detailed information on their origins.
 
 ## Output
 
