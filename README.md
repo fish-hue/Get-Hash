@@ -7,7 +7,6 @@ This script is designed to facilitate the querying of DNS records and checking h
 
 ## Features
 
-- Query DNS records (A, AAAA, MX, etc.) for a specified domain.
 - Look up file hashes (MD5, SHA1, SHA256) in DShield and Cymru databases.
 - Save gathered information to a timestamped output file.
 
