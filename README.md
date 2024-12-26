@@ -22,7 +22,7 @@ This script is designed to facilitate the querying of DNS records and checking h
 The script accepts the following arguments:
 
 ```bash
-./your_script.sh [-a hash_algorithm] [-v level] <domain> [type] [-h <hash>]
+./gethash.sh [-a hash_algorithm] [-v level] <domain> [type] [-h <hash>]
 ```
 
 ### Options:
